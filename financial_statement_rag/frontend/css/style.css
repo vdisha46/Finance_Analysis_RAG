@@ -1,0 +1,68 @@
+body {
+    background: #f4f7fb;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.sidebar {
+    min-height: 100vh;
+    background: linear-gradient(180deg, #0d1b2a, #1b263b);
+    color: white;
+}
+
+.sidebar .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+}
+
+.main-panel {
+    padding: 2rem;
+}
+
+.card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.auth-card {
+    max-width: 450px;
+    margin: 5rem auto;
+    padding: 2rem;
+}
+
+.chart-container {
+    position: relative;
+    height: 280px;
+}
+
+.upload-dropzone {
+    border: 2px dashed #b9c6d5;
+    border-radius: 12px;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9fbff;
+}
+
+.chat-window {
+    max-height: 420px;
+    overflow-y: auto;
+}
+
+.chat-bubble-user {
+    background: #0d6efd;
+    color: white;
+}
+
+.chat-bubble-ai {
+    background: #eef2ff;
+    color: #1b263b;
+}
